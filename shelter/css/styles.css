@@ -19,3 +19,29 @@ h1 {
 h2 {
   color: orange
 }
+
+.columns h3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1080px) {
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
+}
